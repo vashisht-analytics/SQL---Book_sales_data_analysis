@@ -26,7 +26,7 @@ country VARCHAR(100) NOT NULL
 
 --Importing customers csv file
 COPY customers(customer_id, name, email, phone, city, country)
-FROM '‪D:\revision\ST - SQL ALL PRACTICE FILES-2\All Excel Practice Files\Customers.csv'
+FROM 'D:\revision\ST - SQL ALL PRACTICE FILES-2\All Excel Practice Files\Customers.csv'
 CSV HEADER;
 
 --Create Table employee_data
