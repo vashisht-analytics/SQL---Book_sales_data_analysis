@@ -62,7 +62,7 @@ total_amount NUMERIC(10,2)
 
 --Importing orders csv file
 COPY orders(order_id, customer_id, book_id, order_date, quantity, total_amount)
-FROM '‪D:\revision\ST - SQL ALL PRACTICE FILES-2\All Excel Practice Files\Orders.csv'
+FROM 'D:\revision\ST - SQL ALL PRACTICE FILES-2\All Excel Practice Files\Orders.csv'
 CSV HEADER;
 
 --Queries
